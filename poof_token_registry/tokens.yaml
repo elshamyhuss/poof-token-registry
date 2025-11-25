@@ -1,0 +1,95 @@
+# Token metadata registry for Poof
+# Native coins
+- symbol: BTC
+  network: bitcoin
+  type: native
+  decimals: 8
+  address: null
+
+- symbol: LTC
+  network: litecoin
+  type: native
+  decimals: 8
+  address: null
+
+- symbol: DOGE
+  network: dogecoin
+  type: native
+  decimals: 8
+  address: null
+
+- symbol: ETH
+  network: ethereum
+  type: native
+  decimals: 18
+  address: null
+
+- symbol: SOL
+  network: solana
+  type: native
+  decimals: 9
+  address: null
+
+- symbol: BNB
+  network: bsc
+  type: native
+  decimals: 18
+  address: null
+
+- symbol: TRX
+  network: tron
+  type: native
+  decimals: 6
+  address: null
+
+# ERC-20 tokens on Ethereum
+- symbol: USDT
+  network: ethereum
+  type: erc20
+  decimals: 6
+  address: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+
+- symbol: USDC
+  network: ethereum
+  type: erc20
+  decimals: 6
+  address: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606EB48"
+
+# SPL tokens on Solana
+- symbol: MELANIA
+  network: solana
+  type: spl
+  decimals: 6
+  address: "Hgd9Cng2dJrZn5uGs19j3yC9Q2Pk7RwswZxVuwLM9mKC"
+
+- symbol: TRUMP
+  network: solana
+  type: spl
+  decimals: 6
+  address: "9nB5PeRa6xk7B8EeePntjcMTDFhkVQjaxAgq6nxsVXHo"
+
+# BEP-20 tokens on BSC
+- symbol: USDT
+  network: bsc
+  type: bep20
+  decimals: 18
+  address: "0x55d398326f99059fF775485246999027B3197955"
+
+- symbol: USDC
+  network: bsc
+  type: bep20
+  decimals: 18
+  address: "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+
+# TRC-20 tokens on Tron
+- symbol: USDT
+  network: tron
+  type: trc20
+  decimals: 6
+  address: "TN3W4H6LwQqSWjsnHxhSN1VMy3hHc9E1b3"
+
+- symbol: USDC
+  network: tron
+  type: trc20
+  decimals: 6
+  address: "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8"
